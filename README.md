@@ -29,4 +29,6 @@
 - The inverted matrix is used to extract the errors on the parameters(square root of the diagonal) and the correlation matrix
 - The position at t=1s and its error is evaluted taking into account the correlations between the fit parameters
 - The method is compared with the Minuit(to use it: `pip install iminuit`) minimizer showing an almost total agreements
+
+
   ![matrix](matrix_computation_Ex_4.2.jpeg)
