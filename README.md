@@ -24,9 +24,9 @@
   below 0
 
 ### Exercise 4.2
-- The calculation for writing the linear system of equation that minimize the chi^2 is reported in Fig[matrix]: 
-  ![matrix](matrix_computation_Ex_4.2.jpeg)
+- The calculation for writing the linear system of equation that minimize the chi^2 is reported in the figure below 
 - The system is solved using the method of numpy : `np.linalg.solve()`
 - The inverted matrix is used to extract the errors on the parameters(square root of the diagonal) and the correlation matrix
 - The position at t=1s and its error is evaluted taking into account the correlations between the fit parameters
 - The method is compared with the Minuit(to use it: `pip install iminuit`) minimizer showing an almost total agreements
+  ![matrix](matrix_computation_Ex_4.2.jpeg)
