@@ -5,9 +5,9 @@ from root_numpy import fill_hist
 #########Settable parameters############
 N_exp = 10000
 N0 = 500
-alpha = 4*10**-5
+alpha = 2*10**-4
 delta_t = 1
-T = 10000
+T = 100
 #######################################
 
 m = T/delta_t
@@ -39,7 +39,7 @@ canv.cd()
 histo.Draw()
 poisson.Draw("same")
 binomial.Draw("same")
-gPad.BuildLegend()
+gPad.BuildLegend(0.3, 0.3, 0.6, 0.5)
 gStyle.SetOptStat(0)
-canv.Draw()
-input()
+canv.Print("plots/n_decay.pdf")
+

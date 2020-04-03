@@ -86,4 +86,5 @@ plt.grid()
 plt.ylabel("x(cm)")
 plt.xlabel("t(s)")
 plt.text(x=0.0, y=100, s=r"$\chi^2$ / NDF = {}/{}".format(round(least_squares_np(params),1), len(x)-len(params)))
-plt.show()
+
+plt.savefig("plots/least_squares.pdf")
