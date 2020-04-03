@@ -1,7 +1,7 @@
 # Overview
-
+All the resulting plots are saved in `plots/`
 ### Exercises 2.1 and 2.2
-- Ex 2.1 is rewritten using numpy arrays (`decay.py`). Using the numpy formalism one can avoid to directly loop over the
+- Ex 2.1 is rewritten using numpy arrays (`decay.py`). The numpy formalism allows me to avoid to directly loop over the
   remaining nuclei creating a numpy array of random numbers. The result of the decay process is compared with the exponential
   distribution showing good agreement
 - Ex 2.2 is solved in `n_decays.py`. Please note that the `ROOT TH1D` is filled using the method `fill_hist` from root_numpy(`pip install root_numpy`)
